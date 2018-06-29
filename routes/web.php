@@ -20,3 +20,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 //Codes Controller
 Route::get('/Codes','CodeController@index')->name('code');
+Route::get('/generate','Codecontroller@generateCode')->name('generate');

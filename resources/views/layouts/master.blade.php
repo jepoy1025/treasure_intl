@@ -62,7 +62,7 @@
         <!-- Optionally, you can add icons to the links -->
 
         @can('isAdmin')
-          <li><a href="#"><i class="fa fa-user"></i> <span>Codes</span></a></li>
+        <li><a href="{{route('generate')}}"><i class="fa fa-user"></i> <span>Codes</span></a></li>
         @endcan
 
         <li class="">
