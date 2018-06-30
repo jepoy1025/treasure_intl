@@ -22,4 +22,3 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/Codes','CodeController@index')->name('code');
 Route::get('/generate','CodeController@generateCode')->name('generate');
 Route::get('/verify','UserController@verifyCode')->name('userId');
-Route::yeah
