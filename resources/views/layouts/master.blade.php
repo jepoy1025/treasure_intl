@@ -63,6 +63,7 @@
 
         @can('isAdmin')
         <li><a href="{{route('generate')}}"><i class="fa fa-user"></i> <span>Codes</span></a></li>
+        <li><a href="{{route('userId')}}"><i class="fa fa-user"></i> <span>Generate ID</span></a></li>
         @endcan
 
         <li class="">
